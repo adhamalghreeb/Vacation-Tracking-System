@@ -90,3 +90,19 @@ The system will **empower employees** to independently manage their vacation tim
    - Monitors overall system performance and security.  
    - Manages user roles, access permissions, and system configuration.  
    - Has audit-level visibility across the entire system.
+
+---
+
+## ERD diagram
+![Alt Text](ERD.png)
+
+| From Table           | To Table             | Relationship Type | Description                                  |
+| -------------------- | -------------------- | ----------------- | -------------------------------------------- |
+| **Users**            | **Roles**            | Many-to-One (M:1) | Many users can have the same role.           |
+| **VacationRequests** | **Users**            | Many-to-One (M:1) | Each request is submitted by one user.       |
+| **VacationRequests** | **Status**           | Many-to-One (M:1) | Each request has one status.                 |
+| **Notifications**    | **Users**            | Many-to-One (M:1) | Each notification is sent to one user.       |
+| **Notifications**    | **VacationRequests** | Many-to-One (M:1) | Each notification may relate to one request. |
+| **AuditLog**         | **Users**            | Many-to-One (M:1) | Each log is performed by one user.           |
+| **AuditLog**         | **VacationRequests** | Many-to-One (M:1) | Each log relates to one vacation request.    |
+
