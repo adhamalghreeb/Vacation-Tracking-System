@@ -94,7 +94,7 @@ The system will **empower employees** to independently manage their vacation tim
 ---
 
 ## ERD diagram
-![Alt Text](ERD.png)
+![here the erd diagram](ERD.png)
 
 | From Table           | To Table             | Relationship Type | Description                                  |
 | -------------------- | -------------------- | ----------------- | -------------------------------------------- |
@@ -106,3 +106,7 @@ The system will **empower employees** to independently manage their vacation tim
 | **AuditLog**         | **Users**            | Many-to-One (M:1) | Each log is performed by one user.           |
 | **AuditLog**         | **VacationRequests** | Many-to-One (M:1) | Each log relates to one vacation request.    |
 
+---
+
+## USE CASE diagram
+![here the use case diagram](VTS.drawio.png)
