@@ -115,3 +115,8 @@ The system will **empower employees** to independently manage their vacation tim
 
 ## Sequence diagram
 ![here the use case diagram](VTS-sequence-1.png)
+
+---
+
+## State diagram
+![here the use case diagram](stateOfRequest.png)
