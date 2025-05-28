@@ -119,7 +119,7 @@ The system will **empower employees** to independently manage their vacation tim
 ---
 
 ## Sequence diagram for Withdraw Vacation Request
-![here the use case diagram](sequence#2.png)
+![here the use case diagram](sequence_with.png)
 
 ---
 
