@@ -113,8 +113,13 @@ The system will **empower employees** to independently manage their vacation tim
 
 ---
 
-## Sequence diagram
+## Sequence diagram for manage time
 ![here the use case diagram](VTS-sequence-1.png)
+
+---
+
+## Sequence diagram for Withdraw Vacation Request
+![here the use case diagram](sequence#2.png)
 
 ---
 
