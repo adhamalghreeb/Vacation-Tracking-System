@@ -123,5 +123,10 @@ The system will **empower employees** to independently manage their vacation tim
 
 ---
 
+## Sequence diagram for Cancel Approved Vacation Request
+![here the use case diagram](sequence_cancel.png)
+
+---
+
 ## State diagram
 ![here the use case diagram](stateOfRequest.png)
