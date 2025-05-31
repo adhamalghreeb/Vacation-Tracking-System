@@ -93,7 +93,7 @@ The system will **empower employees** to independently manage their vacation tim
 
 ---
 
-## ERD diagram
+## 0. ERD diagram
 ![here the erd diagram](ERD.png)
 
 | From Table           | To Table             | Relationship Type | Description                                  |
@@ -108,34 +108,34 @@ The system will **empower employees** to independently manage their vacation tim
 
 ---
 
-## USE CASE diagram
+## 1.1 USE CASE diagram for manage time
 ![here the use case diagram](VTS.drawio.png)
 
 ---
 
-## Sequence diagram for manage time
+## 1.2 Sequence diagram for manage time
 ![here the use case diagram](VTS-sequence-1.png)
 
-## flowchart for Edit Pending Request manage time
+## 2. flowchart for Edit Pending Request manage time
 ![here the use case diagram](flowchart_edit.drawio.png)
 
 ---
 
-## Sequence diagram for Withdraw Vacation Request
+## 3.1 Sequence diagram for Withdraw Vacation Request
 ![here the use case diagram](sequence_with.png)
 
-## flowchart for Withdraw Vacation Request
+## 3.2 flowchart for Withdraw Vacation Request
 ![here the use case diagram](flowchart_with.drawio.png)
 
 ---
 
-## Sequence diagram for Cancel Approved Vacation Request
+## 4.1 Sequence diagram for Cancel Approved Vacation Request
 ![here the use case diagram](sequence_cancel.png)
 
-## flowchart for Cancel Approved Vacation Request
+## 4.2 flowchart for Cancel Approved Vacation Request
 ![here the use case diagram](flowchart_cancel.drawio.png)
 
 ---
 
-## State diagram for The Request
+## 5. State diagram for The Request
 ![here the use case diagram](stateOfRequest.png)
