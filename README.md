@@ -116,17 +116,26 @@ The system will **empower employees** to independently manage their vacation tim
 ## Sequence diagram for manage time
 ![here the use case diagram](VTS-sequence-1.png)
 
+## flowchart for Edit Pending Request manage time
+![here the use case diagram](flowchart_edit.drawio.png)
+
 ---
 
 ## Sequence diagram for Withdraw Vacation Request
 ![here the use case diagram](sequence_with.png)
+
+## flowchart for Withdraw Vacation Request
+![here the use case diagram](flowchart_with.drawio.png)
 
 ---
 
 ## Sequence diagram for Cancel Approved Vacation Request
 ![here the use case diagram](sequence_cancel.png)
 
+## flowchart for Cancel Approved Vacation Request
+![here the use case diagram](flowchart_cancel.drawio.png)
+
 ---
 
-## State diagram
+## State diagram for The Request
 ![here the use case diagram](stateOfRequest.png)
